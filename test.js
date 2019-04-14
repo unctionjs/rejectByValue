@@ -1,10 +1,10 @@
 /* eslint-disable flowtype/require-variable-type, no-magic-numbers */
-import {from} from "most"
-import streamSatisfies from "@unction/streamsatisfies"
+import {from} from "most";
+import streamSatisfies from "@unction/streamsatisfies";
 
-import rejectByValue from "./index"
+import rejectByValue from "./index";
 
-const isOdd = (value) => value % 2 !== 0
+const isOdd = (value) => value % 2 !== 0;
 
 test("rejectByValue with Array", () => {
   expect(
@@ -21,8 +21,8 @@ test("rejectByValue with Array", () => {
       1,
       3,
     ]
-  )
-})
+  );
+});
 
 test("rejectByValue with Object", () => {
   expect(
@@ -39,8 +39,8 @@ test("rejectByValue with Object", () => {
       bbb: 2,
       ddd: 4,
     }
-  )
-})
+  );
+});
 
 test("rejectByValue with Set", () => {
   expect(
@@ -54,8 +54,8 @@ test("rejectByValue with Set", () => {
     ]))
   ).toEqual(
     new Set([2, 4])
-  )
-})
+  );
+});
 
 test("rejectByValue with Map", () => {
   expect(
@@ -90,11 +90,11 @@ test("rejectByValue with Map", () => {
         4,
       ],
     ])
-  )
-})
+  );
+});
 
 test("rejectByValue with Stream", () => {
-  expect.assertions(3)
+  expect.assertions(3);
 
   streamSatisfies(
     [2, 4]
@@ -113,5 +113,5 @@ test("rejectByValue with Stream", () => {
       3,
       4,
     ]))
-  )
-})
+  );
+});
