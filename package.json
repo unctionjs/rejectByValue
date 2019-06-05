@@ -61,7 +61,7 @@
   },
   "dependencies": {
     "@unction/reversal": "1.0.0",
-    "@unction/selectbyvalue": "1.0.0"
+    "@unction/selectbyvalue": "1.1.0"
   },
   "module": "index.js",
   "browser": "browser.js",
