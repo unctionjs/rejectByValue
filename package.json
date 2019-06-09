@@ -64,7 +64,7 @@
     "@unction/selectbyvalue": "1.2.0",
     "core-js": "3.0.1"
   },
-  "module": "index.js",
+  "module": "module.js",
   "browser": "browser.js",
   "nyc": {
     "require": [
