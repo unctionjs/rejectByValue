@@ -60,8 +60,8 @@
     "tap": "12.6.1"
   },
   "dependencies": {
-    "@unction/reversal": "1.1.0",
-    "@unction/selectbyvalue": "1.5.0"
+    "@unction/reversal": "1.1.1",
+    "@unction/selectbyvalue": "1.6.0"
   },
   "module": "module.js",
   "browser": "browser.js",
