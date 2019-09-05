@@ -1,7 +1,7 @@
 {
   "name": "@unction/rejectbyvalue",
   "version": "1.6.0",
-  "description": "",
+  "description": "Takes an enumerable and a predicate, returning an enumerable with items that returned false from the predicate",
   "keywords": [
     "unction",
     "functional"
@@ -19,7 +19,7 @@
   "bugs": "https://github.com/unctionjs/rejectByValue/issues",
   "main": "main.js",
   "files": [
-    "index.js",
+    "index.ts",
     "main.js",
     "main.js.map",
     "browser.js",
@@ -73,5 +73,6 @@
     ],
     "sourceMap": false,
     "instrument": false
-  }
+  },
+  "types": "types.d.ts"
 }

@@ -4,12 +4,12 @@
 ![Stability][BADGE_STABILITY]
 ![Dependencies][BADGE_DEPENDENCY]
 
-> mixed => mixed
+> PredicateFunctionType<A> => EnumerableType<A> => EnumerableType<A>
 
-An example function.
+Takes an enumerable and a predicate, returning an enumerable with items that returned false from the predicate.
 
 ``` javascript
-rejectByValue(1) // 1
+rejectByValue(type("Number"))([1, "A", 2, "B"]) // ["A", "B"]
 ```
 
 [BADGE_TRAVIS]: https://img.shields.io/travis/unctionjs/rejectByValue.svg?maxAge=2592000&style=flat-square
