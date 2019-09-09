@@ -1,6 +1,6 @@
 {
   "name": "@unction/rejectbyvalue",
-  "version": "1.9.1",
+  "version": "1.10.0",
   "description": "Takes an enumerable and a predicate, returning an enumerable with items that returned false from the predicate",
   "keywords": [
     "unction",
