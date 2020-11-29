@@ -63,6 +63,6 @@
   },
   "dependencies": {
     "@unction/reversal": "^1.1.4",
-    "@unction/selectbyvalue": "^1.11.0"
+    "@unction/selectbyvalue": "^1.12.0"
   }
 }
